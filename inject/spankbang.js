@@ -27,7 +27,7 @@ const filteredSpArray = spArray.filter(
 
 console.log(`
     {
-        "xid"       : "${Date.now()}",
+        "id"        : "${Date.now()}",
         "xtype"     : "porn",
         "xsource"   : "${spSource}",
         "xcover"    : "${Date.now()}.webp",
