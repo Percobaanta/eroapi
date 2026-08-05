@@ -82,7 +82,7 @@ console.log(`
         "xcover"   : "",
         "xtitle"   : "${rtArrayTitle1[1]} - ${rtArrayTitle2[1]}",
         "xdesc"    : "",
-        "xcreator" : "${rtArrayCreator[1]}",
+        "xcreator" : "[${rtArrayCreator[1]}]",
         "xtags"    : ${JSON.stringify(rtFilteredTags)},
     },
 `);
