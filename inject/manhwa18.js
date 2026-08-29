@@ -62,7 +62,7 @@ const image = [
 
 console.log(`
     {
-        "ch"        : "ch",
+        "ch"        : "${ch}",
         "ximages"   : [${image.map((doc) => `"${doc}"`)}],
     },
 `);
