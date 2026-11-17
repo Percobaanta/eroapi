@@ -9,9 +9,9 @@ const cupTags = document.querySelectorAll(".gridshow-tags-links a");
 const cupArrayTags = Array.from(cupTags).map((tag) => tag.textContent.trim());
 
 const ximages = [
-  ...document.querySelectorAll(
-    ".entry-content.gridshow-clearfix > div:first-child a"
-  ),
+	...document.querySelectorAll(
+		".entry-content.gridshow-clearfix > div:first-child a",
+	),
 ].map((a) => a.href);
 
 console.log(ximages);
